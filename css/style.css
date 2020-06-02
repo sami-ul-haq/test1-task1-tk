@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(214, 212, 212);
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-content{
+    width: 40vw;
+}
+
+header{
+    background-image:linear-gradient(to bottom, rgb(248, 147, 14 , 0.5) , rgb(250, 135, 134 , 1)), url('/images/1.png');
+    width: 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; 
+}
+
+.top-icons{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    top: 0px;
+    left: 10%;
+}
+
+.top-icons i{
+    margin: 5px 20px;
+}
+
+.intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h1{
+    font-size: 2em;
+}
+
+.intro p{
+    margin: 8px 0px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    /* transform: translateY(60%); */
+    /* transform: translateX(50%); */
+    top: 28%;
+    left: 37%;
+}
+
+.images i{
+    color: white;
+    background-color: deeppink;
+    border-radius: 25px;
+    padding: .5em;
+    font-size: 1.5em;
+}
+
+.images img{
+    max-width: 100%;
+    height: 200px;
+    border-radius: 50% ;
+    border: 5px solid white;
+    box-shadow: 2px 2px 12px grey ;
+    margin: 0px 50px;
+}
+
+main{
+    padding-top: 20%;
+    background-color: white;
+}
+
+.more_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.more_info h1{
+    color: deeppink;
+    font-size: 2em;
+}
+
+.intro-details{
+    padding: 10px;
+}
+
+.intro-details h1{
+    margin-bottom: 5px;
+}
+
+.btn-last{
+    text-align: center;
+    margin: 20px 0px;
+}
+.btn{
+    color: white;
+    padding: 0.5em 3em;
+    border-radius: 30px;
+    font-size: 1em;
+    border: none;
+    background: linear-gradient(45deg, deeppink, rgb(248, 147, 14));
+    box-shadow: 2px 2px 12px rgb(253, 143, 149);
+}
